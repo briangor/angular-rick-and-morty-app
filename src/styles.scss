@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+
+* {
+    font-family: Arial, Helvetica, 'Creepster', cursive;
+}
+
+.navbar-brand,
+.nav-link {
+    color: rgb(19, 19, 19);
+}
+
+.navbar-toggler {
+    color: transparent;
+
+    .navbar-toggler-icon {
+        color: #000;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        //background-color: lightblue;
+    }
+
+    .character-card {
+        border: 1px solid red;
+        width: 10rem;
+        margin-left: 20px;
+    }
+
+}

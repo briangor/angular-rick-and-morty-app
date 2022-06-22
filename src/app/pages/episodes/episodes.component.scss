@@ -1,0 +1,31 @@
+.row {
+    justify-content: center;
+    padding-bottom: 4%;
+}
+.episode-card {
+    border: 1px solid rgb(202, 202, 202);
+    margin: 2% 0 0 2%;
+    width: 40%;
+    padding: 2% 2%;
+    cursor: pointer;
+
+    &:hover {
+        border-color: #198457;
+        .name {
+            color: #198457;
+        }
+    }
+
+    .name {
+        display: block;
+        font-weight: 600;
+    }
+
+    .episode {
+        display: block;
+    }
+
+    .air_date {
+        color: rgb(92, 92, 92);
+    }
+}

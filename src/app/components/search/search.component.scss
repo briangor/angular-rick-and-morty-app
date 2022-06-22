@@ -1,0 +1,13 @@
+.search {
+    width: 50%;
+    margin: auto;
+
+    input {
+        outline: none;
+        box-shadow: none;
+
+        &:focus {
+            border-color: #198754;
+        }
+    }
+}

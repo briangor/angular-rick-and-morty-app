@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="episode-card" *ngFor="let episode of episodes">
+    <span class="name">{{ episode.name }}</span>
+    <span class="episode">{{ episode.episode }}</span>
+    <span class="air_date">Released: {{ episode.air_date }}</span>
+    <!-- {{ episode.created | date}} <br /> -->
+    <!-- {{ episode.url }} -->
+    <!--     air_date
+          characters array [character url/id]
+          created
+          episode
+          name
+          url -->
+  </div>
+</div>
